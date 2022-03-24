@@ -92,5 +92,11 @@ namespace GitLabApiClient.Models.MergeRequests.Responses
 
         [JsonProperty("merged_by")]
         public Assignee MergedBy { get; set; }
+
+        [JsonProperty("has_conflicts")]
+        public bool HasConflicts { get; set; }
+
+        [JsonProperty("changes_count")]
+        public string ChangesCount { get; set; }
     }
 }
