@@ -4,10 +4,11 @@
     <TargetFrameworks>netstandard2.0;net48;netcoreapp3.1;net5.0</TargetFrameworks>
     <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
     <Copyright />
-    <Description>GitLabApiClient is a .NET rest client for GitLab API v4.</Description>
-    <Authors>nmklotas</Authors>
-    <PackageProjectUrl>https://github.com/nmklotas/GitLabApiClient</PackageProjectUrl>
-    <RepositoryUrl>https://github.com/nmklotas/GitLabApiClient</RepositoryUrl>
+    <Description>GitLabApiClient is a .NET rest client for GitLab API v4.
+Fork from https://github.com/nmklotas/GitLabApiClient.</Description>
+    <Authors>nmklotas, db2222</Authors>
+    <PackageProjectUrl>https://github.com/db2222/GitLabApiClient</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/db2222/GitLabApiClient</RepositoryUrl>
     <PackageTags>GitLab REST API CI Client</PackageTags>
     <PackageId>GitLabApiClient</PackageId>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
@@ -16,10 +17,12 @@
     <IncludeSymbols>true</IncludeSymbols>
     <UseFullSemVerForNuGet>true</UseFullSemVerForNuGet>
     <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+    <PackageVersion>1.8.0-beta.1</PackageVersion>
+    <PackageReleaseNotes>Added has_conflicts and changes_count for Merge Request API</PackageReleaseNotes>
   </PropertyGroup>
 
   <PropertyGroup Condition=" '$(GITHUB_ACTIONS)' == 'true'">
-    <ContinuousIntegrationBuild >true</ContinuousIntegrationBuild>
+    <ContinuousIntegrationBuild>true</ContinuousIntegrationBuild>
     <EmbedUntrackedSources>true</EmbedUntrackedSources>
   </PropertyGroup>
 
