@@ -9,8 +9,8 @@ Fork from https://github.com/nmklotas/GitLabApiClient.</Description>
     <Authors>nmklotas, db2222</Authors>
     <PackageProjectUrl>https://github.com/db2222/GitLabApiClient</PackageProjectUrl>
     <RepositoryUrl>https://github.com/db2222/GitLabApiClient</RepositoryUrl>
-    <PackageTags>GitLab REST API CI Client</PackageTags>
-    <PackageId>GitLabApiClient</PackageId>
+    <PackageTags>GitLab REST API CI Client Fork</PackageTags>
+    <PackageId>db2222.GitLabApiClient</PackageId>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <Company>nmklotas</Company>
     <PublishRepositoryUrl>true</PublishRepositoryUrl>
