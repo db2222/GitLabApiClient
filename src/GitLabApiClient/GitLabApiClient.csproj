@@ -17,8 +17,8 @@ Fork from https://github.com/nmklotas/GitLabApiClient.</Description>
     <IncludeSymbols>true</IncludeSymbols>
     <UseFullSemVerForNuGet>true</UseFullSemVerForNuGet>
     <SymbolPackageFormat>snupkg</SymbolPackageFormat>
-    <PackageVersion>2.0.0</PackageVersion>
-    <PackageReleaseNotes>Added POST request via ConnectionClient. Updated NuGet packages. Switched to .NET 10.</PackageReleaseNotes>
+    <PackageVersion>2.0.1</PackageVersion>
+    <PackageReleaseNotes>Added auto_merge for accepting merge requests.</PackageReleaseNotes>
   </PropertyGroup>
 
   <PropertyGroup Condition=" '$(GITHUB_ACTIONS)' == 'true'">
