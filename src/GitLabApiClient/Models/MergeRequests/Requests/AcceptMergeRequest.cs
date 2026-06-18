@@ -21,9 +21,16 @@ namespace GitLabApiClient.Models.MergeRequests.Requests
 
         /// <summary>
         /// If set merge request is merged when the pipeline succeeds.
+        /// Deprecated in GitLab 17.11. Use auto_merge instead.
         /// </summary>
         [JsonProperty("merge_when_pipeline_succeeds")]
         public bool? MergeWhenPipelineSucceeds { get; set; }
+
+        /// <summary>
+        /// If true, the merge request merges when checks pass.
+        /// </summary>
+        [JsonProperty("auto_merge")]
+        public bool? AutoMerge { get; set; }
 
         /// <summary>
         /// If set, then this SHA must match the HEAD of the source branch, otherwise the merge will fail.
