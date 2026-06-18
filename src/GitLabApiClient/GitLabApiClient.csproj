@@ -17,8 +17,8 @@ Fork from https://github.com/nmklotas/GitLabApiClient.</Description>
     <IncludeSymbols>true</IncludeSymbols>
     <UseFullSemVerForNuGet>true</UseFullSemVerForNuGet>
     <SymbolPackageFormat>snupkg</SymbolPackageFormat>
-    <PackageVersion>1.8.0-beta.1</PackageVersion>
-    <PackageReleaseNotes>Added has_conflicts and changes_count for Merge Request API</PackageReleaseNotes>
+    <PackageVersion>2.0.0</PackageVersion>
+    <PackageReleaseNotes>Added POST request via ConnectionClient. Updated NuGet packages. Switched to .NET 10.</PackageReleaseNotes>
   </PropertyGroup>
 
   <PropertyGroup Condition=" '$(GITHUB_ACTIONS)' == 'true'">
