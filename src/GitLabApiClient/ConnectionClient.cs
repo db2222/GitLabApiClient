@@ -33,5 +33,13 @@ namespace GitLabApiClient
         /// <param name="uri">URI endpoint to send request to</param>
         public Task<IList<T>> GetPagedListAsync<T>(string uri)
             => _httpFacade.GetPagedList<T>(uri);
+
+        /// <summary>
+        /// Performs an asynchronous HTTP POST request.
+        /// </summary>
+        /// <param name="uri">URI endpoint to send request to</param>
+        /// <param name="data">Data to send as body</param>
+        public Task<T> PostAsync<T>(string uri, object data = null) where T : class
+            => _httpFacade.Post<T>(uri, data);
     }
 }
