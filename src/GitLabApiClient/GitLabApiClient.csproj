@@ -17,8 +17,8 @@ Fork from https://github.com/nmklotas/GitLabApiClient.</Description>
     <IncludeSymbols>true</IncludeSymbols>
     <UseFullSemVerForNuGet>true</UseFullSemVerForNuGet>
     <SymbolPackageFormat>snupkg</SymbolPackageFormat>
-    <PackageVersion>2.0.1</PackageVersion>
-    <PackageReleaseNotes>Added auto_merge for accepting merge requests.</PackageReleaseNotes>
+    <PackageVersion>2.0.2</PackageVersion>
+    <PackageReleaseNotes>Added detailed_merge_status.</PackageReleaseNotes>
   </PropertyGroup>
 
   <PropertyGroup Condition=" '$(GITHUB_ACTIONS)' == 'true'">

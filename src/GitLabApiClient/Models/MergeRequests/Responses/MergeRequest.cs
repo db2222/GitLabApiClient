@@ -36,6 +36,9 @@ namespace GitLabApiClient.Models.MergeRequests.Responses
         [JsonProperty("merge_status")]
         public MergeStatus Status { get; set; }
 
+        [JsonProperty("detailed_merge_status")]
+        public string DetailedStatus { get; set; }
+
         [JsonProperty("merge_commit_sha")]
         public string MergeCommitSha { get; set; }
 
